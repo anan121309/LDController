@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Project>
+<ProjInfo>
+<EnterFile>_LDController.t</EnterFile>
+<Language>1</Language>
+<Version>7.0</Version>
+<ExeIco>E:\logo.ico</ExeIco>
+<Platform>pc</Platform>
+</ProjInfo>
+<DesignInfo>
+<LockedCtrl></LockedCtrl>
+</DesignInfo>
+<VersionInfo>
+<InternalName>_LDController</InternalName>
+<ProductName>_LDController</ProductName>
+<FileDescription>_LDController</FileDescription>
+<FileVersion>2.0.0.0</FileVersion>
+<ProductVersion>0.0.1.5</ProductVersion>
+<CompanyName>奶茶叔叔</CompanyName>
+<LegalCopyright>(C)&lt;奶茶叔叔&gt;保留所有版权</LegalCopyright>
+</VersionInfo>
+</Project>
