@@ -1,0 +1,25 @@
+Set dm = CreateObject("dm.dmsoft")
+
+// 打印版本和路径信息
+TracePrint dm.ver()
+
+TracePrint dm.GetBasePath()  
+
+
+
+
+dm_ret = dm.FindMultiColorEx(49,941,1282,1035, "40ab00-000000|3da800-000000|ffffff-000000","40ab00,2|12|3da800,5|4|ffffff",0.8,0)
+count = dm.GetResultCount(dm_ret)
+index = 0
+Do While index < count 
+   aa = dm.GetResultPos(dm_ret,index,intX,intY)
+   TracePrint intX &","& intY
+   index = index + 1
+   Delay  200
+Loop
+
+
+Sub OnScriptExit()
+	TracePrint "执行退出函数"
+End Sub
+
